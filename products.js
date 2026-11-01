@@ -12,12 +12,12 @@ window.JOJE_PRODUCTS = [
   },
   {
     "id": "p-1793542933170",
-    "name": "Cups",
+    "name": "6pc japanese concise mugs.",
     "category": "Utensils",
-    "price": 999,
+    "price": 980,
     "stock": "In stock",
-    "description": "",
-    "image": "",
+    "description": "Material: Ceramic\nColor : White with touch of black.",
+    "image": "images/1793562023703-r7fmn.jpg",
     "active": true
   },
   {
