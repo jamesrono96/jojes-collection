@@ -17,7 +17,7 @@ window.JOJE_PRODUCTS = [
     "price": 980,
     "stock": "In stock",
     "description": "Material: Ceramic\nColor : White with touch of black.",
-    "image": "images/1793562073119-6l14y.jpg",
+    "image": "images/1793562132590-1g2u1.jpg",
     "active": true
   },
   {
