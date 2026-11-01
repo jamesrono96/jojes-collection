@@ -1,16 +1,6 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
-    "id": "p-1793562595010",
-    "name": "6pc japanese concise mugs",
-    "category": "Utensils",
-    "price": 980,
-    "stock": "Offer Price",
-    "description": "Material: Ceramic\nColor : White with touch of black.",
-    "image": "images/1793562591037-qgqfq.jpg",
-    "active": true
-  },
-  {
     "id": "p-1793562381481",
     "name": "Original TC  NonStick  sufurias",
     "category": "Utensils",
