@@ -42,12 +42,12 @@ window.JOJE_PRODUCTS = [
   },
   {
     "id": "p-1793542816534",
-    "name": "Mosquito Nets",
+    "name": "GGTB 3.0 Cu.ft Retro Double Door Mini Fridge with Freezer",
     "category": "Beddings",
-    "price": 4500,
-    "stock": "",
-    "description": "",
-    "image": "images/1793542811773-wnzhc.jpg",
+    "price": 25800,
+    "stock": "In stock",
+    "description": "GGTB 3.0 Cu.ft Retro Double Door Mini Fridge with Freezer, Compact Small Refrigerator with Reversible Doors for Dorm Apartment Bedroom Office, Silver",
+    "image": "images/1793562938997-sh7dd.jpg",
     "active": true
   }
 ];
