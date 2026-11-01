@@ -33,8 +33,8 @@ window.JOJE_PRODUCTS = [
   {
     "id": "p-1793542816534",
     "name": "Mosquito Nets",
-    "category": "Male clothes",
-    "price": 5000,
+    "category": "Beddings",
+    "price": 4500,
     "stock": "",
     "description": "",
     "image": "images/1793542811773-wnzhc.jpg",
