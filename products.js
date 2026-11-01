@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793542899781",
+    "name": "Sufuria",
+    "category": "Utensils",
+    "price": 10000,
+    "stock": "In stock",
+    "description": "",
+    "image": "images/1793542894722-jawez.jpg",
+    "active": true
+  },
+  {
     "id": "p-1793542816534",
     "name": "Mosquito Nets",
     "category": "Male clothes",
