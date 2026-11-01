@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793562381481",
+    "name": "Original TC  NonStick  sufurias",
+    "category": "Utensils",
+    "price": 6900,
+    "stock": "Restocked🤩‼️",
+    "description": "5 cooking pots and 5 glass lids;\n20/22/24/28/30cm Casserole\n26cm Frying Pan\n1pc Scotch Brite\n2pc Nonstick Spoons",
+    "image": "images/1793562376973-qmz7k.jpg",
+    "active": true
+  },
+  {
     "id": "p-1793561793682",
     "name": "TC Brand Velvet Duvet",
     "category": "Beddings",
