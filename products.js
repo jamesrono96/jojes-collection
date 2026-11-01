@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793542933170",
+    "name": "Cups",
+    "category": "Utensils",
+    "price": 999,
+    "stock": "In stock",
+    "description": "",
+    "image": "",
+    "active": true
+  },
+  {
     "id": "p-1793542899781",
     "name": "Sufuria",
     "category": "Utensils",
