@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793805829897",
+    "name": "Purity ashirawi chibole",
+    "category": "Male clothes",
+    "price": 20000,
+    "stock": "very available",
+    "description": "Tall Smart smartanga",
+    "image": "images/1793805825847-k73la.jpg",
+    "active": true
+  },
+  {
     "id": "p-1793562381481",
     "name": "Original TC  NonStick  sufurias",
     "category": "Utensils",
