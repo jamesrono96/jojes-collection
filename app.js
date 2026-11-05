@@ -14,6 +14,15 @@ function rotatingCategory(category,index){
  return root;
 }
 cats.forEach((c,i)=>{let o=document.createElement('option');o.value=c;o.textContent=c;$('filter').append(o);$('cats').append(rotatingCategory(c,i))});
+function heroShowcase(){
+ const el=$('hero-showcase');if(!el)return;
+ const picks=[...products.filter(p=>p.isOffer===true||p.onOffer===true),...products.filter(p=>p.isNew===true||p.newArrival===true),...products].filter((p,i,a)=>a.findIndex(x=>x.id===p.id)===i).slice(0,8);
+ if(!picks.length){el.innerHTML='<div class="hero-placeholder"><span>JOJE\'S</span><b>COLLECTION</b><small>YOUR STYLE, YOUR WAY</small></div>';return}
+ let index=0;
+ function draw(){const p=picks[index];const label=p.isOffer||p.onOffer?'SPECIAL OFFER':(p.isNew||p.newArrival?'NEW ARRIVAL':'FEATURED FIND');el.innerHTML=`<a class="hero-product-main" href="${orderUrl(p)}" target="_blank" rel="noopener"><img src="${esc(p.image||'')}" alt="${esc(p.name)}"><span class="hero-product-tag">${label}</span><span class="hero-product-caption"><small>${esc(p.category)}</small><strong>${esc(p.name)}</strong><b>${money(p.price)}</b></span></a><div class="hero-product-side"><span>CURATED FOR YOU</span><strong>Find something<br>you'll love.</strong><small>Tap to enquire on WhatsApp ↗</small><div class="hero-dots">${picks.map((_,i)=>'<i class="'+(i===index?'active':'')+'"></i>').join('')}</div></div>`;}
+ draw();if(picks.length>1)setInterval(()=>{if(!document.hidden){index=(index+1)%picks.length;draw()}},4200);
+}
+heroShowcase();
 function featureRail(id,list,kind,emptyText){
  const el=$(id);if(!list.length){el.innerHTML=`<div class="feature-empty"><span>✦</span><p>${emptyText}</p></div>`;return}
  let index=0;function draw(){const visible=list.slice(index).concat(list.slice(0,index)).slice(0,Math.min(4,list.length));el.innerHTML=visible.map(p=>productCard(p,kind)).join('');index=(index+1)%list.length}
