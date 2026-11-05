@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793896184845",
+    "name": "short sleeve shirt",
+    "category": "Male clothes",
+    "price": 1200,
+    "stock": "instock",
+    "description": "all posted colors available",
+    "image": "images/1793896181943-0ev4k.jpg",
+    "active": true
+  },
+  {
     "id": "p-1793562381481",
     "name": "Original TC  NonStick  sufurias",
     "category": "Utensils",
