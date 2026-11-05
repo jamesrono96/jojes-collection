@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793896437141",
+    "name": "hoodie",
+    "category": "Male clothes",
+    "price": 1850,
+    "stock": "instock",
+    "description": "branded hoodie available in black red white and all sizes medium to 2xl",
+    "image": "images/1793896434135-h2ztd.jpg",
+    "active": true
+  },
+  {
     "id": "p-1793896184845",
     "name": "short sleeve shirt",
     "category": "Male clothes",
