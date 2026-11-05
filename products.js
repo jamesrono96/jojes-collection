@@ -1,6 +1,16 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793897320409",
+    "name": "shirt set",
+    "category": "Boys clothes",
+    "price": 2350,
+    "stock": "instock",
+    "description": "shirt set three piece age upto 12 years different colors available",
+    "image": "images/1793897317545-6k4wy.jpg",
+    "active": true
+  },
+  {
     "id": "p-1793896437141",
     "name": "hoodie",
     "category": "Male clothes",
