@@ -1,16 +1,6 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
-    "id": "p-1793896298735",
-    "name": "shirt",
-    "category": "Male clothes",
-    "price": 1200,
-    "stock": "in stock",
-    "description": "men short sleeve",
-    "image": "",
-    "active": true
-  },
-  {
     "id": "p-1793896184845",
     "name": "short sleeve shirt",
     "category": "Male clothes",
