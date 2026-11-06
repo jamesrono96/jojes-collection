@@ -95,9 +95,11 @@ function heroShowcase(){
 }
 heroShowcase();
 function featureRail(id,list,kind,emptyText){
- const el=$(id);if(!list.length){el.innerHTML=`<div class="feature-empty"><span>✦</span><p>${emptyText}</p></div>`;return}
- let index=0;function draw(){const visible=list.slice(index).concat(list.slice(0,index)).slice(0,Math.min(4,list.length));el.innerHTML=visible.map(p=>productCard(p,kind)).join('');index=(index+1)%list.length}
- draw();if(list.length>1){setInterval(()=>{if(!document.hidden)draw()},4600)}
+ const el=$(id),section=el.closest('.feature-section');
+ if(!list.length){el.innerHTML=`<div class="feature-empty"><span>✦</span><p>${emptyText}</p></div>`;section?.classList.remove('has-items');return}
+ section?.classList.add('has-items');
+ // Render every tagged product at once; the responsive grid expands to use the available width.
+ el.innerHTML=list.map(p=>productCard(p,kind)).join('');
 }
 featureRail('offers-track',products.filter(p=>p.isOffer===true||p.onOffer===true),'offer','Our special offers will appear here. Check back for great deals.');
 featureRail('new-track',products.filter(p=>p.isNew===true||p.newArrival===true),'new','New products will appear here as soon as they arrive.');
