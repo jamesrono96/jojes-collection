@@ -32,7 +32,9 @@ window.JOJE_PRODUCTS = [
     "stock": "instock",
     "description": "all posted colors available",
     "image": "images/1793896181943-0ev4k.jpg",
-    "active": true
+    "active": true,
+    "isOffer": true,
+    "isNew": false
   },
   {
     "id": "p-1793562381481",
