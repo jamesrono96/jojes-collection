@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793975119847",
+    "name": "ladies cute open shoes",
+    "category": "Shoes",
+    "price": 1799,
+    "stock": "very available",
+    "description": "cute open shoes suitable for this season\nDont miss out!!!!!!",
+    "image": "images/1793975115727-11qe5.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": false
+  },
+  {
     "id": "p-1793897320409",
     "name": "shirt set",
     "category": "Boys clothes",
