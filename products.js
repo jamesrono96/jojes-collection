@@ -7,7 +7,7 @@ window.JOJE_PRODUCTS = [
     "price": 1799,
     "stock": "very available",
     "description": "cute open shoes suitable for this season\nDont miss out!!!!!!",
-    "image": "images/1793975115727-11qe5.jpg",
+    "image": "images/1793975167580-ln39j.jpg",
     "active": true,
     "isOffer": false,
     "isNew": false
