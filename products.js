@@ -18,7 +18,9 @@ window.JOJE_PRODUCTS = [
     "stock": "instock",
     "description": "branded hoodie available in black red white and all sizes medium to 2xl",
     "image": "images/1793896434135-h2ztd.jpg",
-    "active": true
+    "active": true,
+    "isOffer": true,
+    "isNew": true
   },
   {
     "id": "p-1793896184845",
