@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1793976245521",
+    "name": "dinner set",
+    "category": "Utensils",
+    "price": 3800,
+    "stock": "Instock",
+    "description": "Restocked\nBeautiful ceramic plates, per set of 6 pcs\nPrice drop @1250.     ",
+    "image": "images/1793976241628-gofq4.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1793975119847",
     "name": "ladies cute open shoes",
     "category": "Shoes",
