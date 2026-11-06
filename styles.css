@@ -81,3 +81,14 @@ small{color:var(--gold);letter-spacing:2.1px;font-weight:700;font-size:10px;text
 .category-caption{min-height:112px}
 @media(max-width:900px){.category-gallery{grid-template-rows:105px 105px}}
 @media(max-width:650px){.category-gallery{grid-template-rows:82px 82px;gap:3px;padding:4px}.category-caption{min-height:96px}}
+
+/* One-image-at-a-time category rotator */
+.category-gallery{display:none!important}
+.category-visual.category-rotator{height:260px;position:relative;overflow:hidden;background:#eee8df}
+.category-visual.category-rotator img{display:block;width:100%;height:100%;object-fit:cover;animation:categoryReveal .6s ease both}
+.category-visual.category-rotator:after{content:attr(data-photo);position:absolute;right:10px;top:10px;background:rgba(48,37,58,.8);color:white;padding:6px 9px;font-size:10px;letter-spacing:1px}
+.category-visual.category-rotator.image-fallback{display:flex;flex-direction:column;justify-content:center;align-items:center;color:var(--plum);gap:8px}
+.category-visual.category-rotator.image-fallback span{font:600 28px 'Playfair Display',Georgia,serif}
+.category-visual.category-rotator.image-fallback small{font-size:10px}
+@media(max-width:900px){.category-visual.category-rotator{height:220px}}
+@media(max-width:650px){.category-visual.category-rotator{height:180px}}
