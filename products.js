@@ -52,9 +52,11 @@ window.JOJE_PRODUCTS = [
     "category": "Beddings",
     "price": 3650,
     "stock": "In stock",
-    "description": "▪️Size: 6x7\n▪️2 pillowcases \n▪️1 bedsheet \n▪️1 velvet duvet \n▪️ Price:‼️ ksh3650\nColors available 👇\nNavy blue✅\nMaroon✅\nYellow✅\nBeige ✅\nGrey ✅\nWhite ✅\nPurple✅\nPink✅\nBrown✅\nJungle greenn✅",
+    "description": "Size: 6x7\n2 pillowcases \n1 bedsheet \n1 velvet duvet \nAll Colors available",
     "image": "images/1793561789089-b6h2g.jpg",
-    "active": true
+    "active": true,
+    "isOffer": false,
+    "isNew": true
   },
   {
     "id": "p-1793542933170",
