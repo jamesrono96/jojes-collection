@@ -7,31 +7,31 @@ function productCard(p,kind=''){return `<article class="spot-card"><a class="spo
 const categoryGallery = {
  'Male clothes': [
   'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80'
+  'https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1618354691229-88d47f285158?auto=format&fit=crop&w=900&q=80'
  ],
  'Female clothes': [
   'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80',
   'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=900&q=80'
+  'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=80'
  ],
  'Girls clothes': [
+  'https://images.unsplash.com/photo-1649318100379-1734db7be867?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1649318099944-dcda031180ed?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1649318091747-df71d8a74ced?auto=format&fit=crop&w=900&q=80',
   'https://images.unsplash.com/photo-1519238263530-99c7b9b7f8a6?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1519238263530-99c7b9b7f8a6?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80'
+  'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=900&q=80'
  ],
  'Boys clothes': [
-  'https://images.unsplash.com/photo-1519238263530-99c7b9b7f8a6?auto=format&fit=crop&w=900&q=80',
+  'https://images.pexels.com/photos/19869761/pexels-photo-19869761.jpeg?auto=compress&cs=tinysrgb&w=900',
   'https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=900&q=80',
   'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1519238263530-99c7b9b7f8a6?auto=format&fit=crop&w=900&q=80'
+  'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&q=80',
+  'https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=900&q=80'
  ],
  'Shoes': [
   'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80',
