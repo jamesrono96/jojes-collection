@@ -63,11 +63,25 @@ const categoryGallery = {
  ]
 };
 function rotatingCategory(category,index){
- const samples=categoryGallery[category]||[], root=document.createElement('article');
+ const samples=categoryGallery[category]||[],root=document.createElement('article');
  root.className='category-tile';root.style.setProperty('--tile-index',index);
  const inquiry='https://wa.me/254795796951?text='+encodeURIComponent("Hello JOJE'S COLLECTION, please share the available products and prices in the "+category+" category and confirm current availability.");
- const photos=samples.slice(0,5).map((src,i)=>`<img src="${src}" alt="${esc(category)} category product photo ${i+1}" loading="lazy">`).join('');
- root.innerHTML=`<div class="category-gallery">${photos}</div><div class="category-caption"><div><h3>${esc(category)}</h3><p>Ask us for current products and availability</p></div><a href="${inquiry}" target="_blank" rel="noopener" aria-label="Ask about ${esc(category)} on WhatsApp">↗</a></div>`;
+ root.innerHTML='<div class="category-visual category-rotator"><img alt=""></div><div class="category-caption"><div><h3>'+esc(category)+'</h3><p>Ask us for current products and availability</p></div><a href="'+inquiry+'" target="_blank" rel="noopener" aria-label="Ask about '+esc(category)+' on WhatsApp">↗</a></div>';
+ const visual=root.querySelector('.category-visual'),img=visual.querySelector('img');
+ let current=0,failures=0,timer=null;
+ function show(){
+  if(!samples.length)return;
+  img.alt=category+' category photo '+(current+1)+' of '+samples.length;
+  img.src=samples[current];
+  visual.dataset.photo=(current+1)+' / '+samples.length;
+  current=(current+1)%samples.length;
+ }
+ img.onerror=()=>{
+  failures++;
+  if(failures<samples.length){show()}else{visual.classList.add('image-fallback');visual.innerHTML='<span>'+esc(category)+'</span><small>Message us to see available products</small>'}
+ };
+ show();
+ if(samples.length>1){timer=setInterval(()=>{if(!document.hidden){failures=0;visual.classList.remove('image-fallback');if(!visual.querySelector('img')){visual.innerHTML='<img alt="">';}const fresh=visual.querySelector('img');if(fresh!==img){fresh.onerror=img.onerror;}show()}},4000);window.addEventListener('pagehide',()=>clearInterval(timer),{once:true})}
  return root;
 }
 cats.forEach((c,i)=>{let o=document.createElement('option');o.value=c;o.textContent=c;$('filter').append(o);$('cats').append(rotatingCategory(c,i))});
