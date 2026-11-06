@@ -8,7 +8,9 @@ window.JOJE_PRODUCTS = [
     "stock": "instock",
     "description": "shirt set three piece age upto 12 years different colors available",
     "image": "images/1793897317545-6k4wy.jpg",
-    "active": true
+    "active": true,
+    "isOffer": false,
+    "isNew": true
   },
   {
     "id": "p-1793896437141",
