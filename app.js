@@ -66,8 +66,22 @@ function rotatingCategory(category,index){
  const samples=categoryGallery[category]||[], root=document.createElement('article');
  root.className='category-tile';root.style.setProperty('--tile-index',index);
  const inquiry='https://wa.me/254795796951?text='+encodeURIComponent("Hello JOJE'S COLLECTION, please share the available products and prices in the "+category+" category and confirm current availability.");
- const photos=samples.slice(0,5).map((src,i)=>`<img src="${src}" alt="${esc(category)} category product photo ${i+1}" loading="lazy">`).join('');
- root.innerHTML=`<div class="category-gallery">${photos}</div><div class="category-caption"><div><h3>${esc(category)}</h3><p>Ask us for current products and availability</p></div><a href="${inquiry}" target="_blank" rel="noopener" aria-label="Ask about ${esc(category)} on WhatsApp">↗</a></div>`;
+ root.innerHTML='<div class="category-gallery"><img class="category-slide" alt=""></div><div class="category-caption"><div><h3>'+esc(category)+'</h3><p>Ask us for current products and availability</p></div><a href="'+inquiry+'" target="_blank" rel="noopener" aria-label="Ask about '+esc(category)+' on WhatsApp">↗</a></div>';
+ const img=root.querySelector('.category-slide');let indexNow=0, attempts=0, timer=null;
+ function showNext(){
+  if(!samples.length){img.removeAttribute('src');return}
+  attempts=0;
+  const tryLoad=()=>{
+   if(attempts>=samples.length){img.removeAttribute('src');img.alt=category+' photos are being updated';return}
+   const src=samples[indexNow%samples.length];indexNow=(indexNow+1)%samples.length;attempts++;
+   img.onerror=tryLoad;
+   img.onload=()=>{img.alt=category+' collection photo';};
+   img.src=src;
+  };
+  tryLoad();
+ }
+ showNext();
+ if(samples.length>1){timer=setInterval(()=>{if(!document.hidden)showNext()},3500);window.addEventListener('pagehide',()=>clearInterval(timer),{once:true})}
  return root;
 }
 cats.forEach((c,i)=>{let o=document.createElement('option');o.value=c;o.textContent=c;$('filter').append(o);$('cats').append(rotatingCategory(c,i))});
