@@ -117,16 +117,6 @@ window.JOJE_PRODUCTS = [
     "active": true
   },
   {
-    "id": "p-1793542899781",
-    "name": "Sufuria",
-    "category": "Utensils",
-    "price": 10000,
-    "stock": "In stock",
-    "description": "",
-    "image": "images/1793542894722-jawez.jpg",
-    "active": true
-  },
-  {
     "id": "p-1793542816534",
     "name": "GGTB 3.0 Cu.ft Retro Double Door Mini Fridge with Freezer",
     "category": "Beddings",
