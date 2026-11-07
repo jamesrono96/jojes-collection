@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794010196729",
+    "name": "carpets",
+    "category": "Beddings",
+    "price": 2850,
+    "stock": "limited stock",
+    "description": "Introducing‼️‼️‼️\n\n\nLIGHT Quality 3D  carpets\n\nSize: 180*270 cm\n\n5*8 3D\n\nNow available @2850🔥🔥\n\nLipa na Mpesa\nsend to pochi\n;0795796951\n\nMpesa name;chibole purity\n\n\nLimited stock\n",
+    "image": "images/1794010193158-cgm8c.jpg",
+    "active": true,
+    "isOffer": true,
+    "isNew": false
+  },
+  {
     "id": "p-1794009838746",
     "name": "latest senori dress",
     "category": "Female clothes",
