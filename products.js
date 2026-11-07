@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794009838746",
+    "name": "latest senori dress",
+    "category": "Female clothes",
+    "price": 2150,
+    "stock": "very available",
+    "description": "*NEW ARRIVALS*\n\n*Sizes 44 to 52*\n\n*At 2150 *\n\nSenori material",
+    "image": "images/1794009835526-nlcmd.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794009619921",
     "name": "ladies' loafers",
     "category": "Shoes",
