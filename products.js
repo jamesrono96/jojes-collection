@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794009619921",
+    "name": "ladies' loafers",
+    "category": "Shoes",
+    "price": 1800,
+    "stock": "",
+    "description": "Ladies  Loafers Restocked 💃\n\n Price: 1800 \n\nBeige:42,43\n\nBlack:38,41,42,\n\nNavy :37,38,39,40,41,42,43,44\n\nBrown:39,40,41,42,44\n\nGrey:43\n\n \n Fitting: Normal \n‼️ Kindly Confirm availability before making payment.\n\nSend to pochi; 0795796951\nmpesa name; chibole purity.",
+    "image": "images/1794009616949-vc8zj.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1793976245521",
     "name": "dinner set",
     "category": "Utensils",
