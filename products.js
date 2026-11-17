@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794944152187",
+    "name": "boys 3 in 1 set",
+    "category": "Boys clothes",
+    "price": 2300,
+    "stock": "very available",
+    "description": "New‼️‼️\n Boys jeans set\nAge 7-12yrs\n",
+    "image": "images/1794944148356-1h6pp.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794944063518",
     "name": "boys 3 in 1 set",
     "category": "Boys clothes",
