@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794944063518",
+    "name": "boys 3 in 1 set",
+    "category": "Boys clothes",
+    "price": 2300,
+    "stock": "very available",
+    "description": "New‼️‼️\n Boys khaki  set\nAge 1-6yrs\n",
+    "image": "images/1794944059455-6ptn0.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794010196729",
     "name": "carpets",
     "category": "Beddings",
