@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794965606849",
+    "name": "@all 💃🏻 *Viatu with full comfort, orthopedic Open shoes!!* 🔥",
+    "category": "Shoes",
+    "price": 1899,
+    "stock": "very available",
+    "description": "@all 💃🏻 *Viatu with full comfort, orthopedic Open shoes!!*\n🔥*37-42*\n🔥*1899*\n\nwhat else Do you want😁",
+    "image": "images/1794965602624-cwf3s.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794965362117",
     "name": "handbag",
     "category": "Female clothes",
