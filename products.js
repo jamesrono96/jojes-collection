@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794965251632",
+    "name": "classic handbag",
+    "category": "Female clothes",
+    "price": 1650,
+    "stock": "in stock",
+    "description": "classic and spacious",
+    "image": "images/1794965248102-jtp9q.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794964945152",
     "name": "🔥Hot deal🔥🔥  Ramtons 20Litres Digital Microwave With Grill",
     "category": "Electronics",
