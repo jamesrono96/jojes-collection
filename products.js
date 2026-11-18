@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794965815536",
+    "name": "clowse",
+    "category": "Shoes",
+    "price": 1799,
+    "stock": "available",
+    "description": "*Brand New Beautiful Clowse Chunk sole favourable for all occasions especially office wear!!*\n🔥*37-42*\n🔥*1499*\n\nhii usikose 😀",
+    "image": "images/1794965811897-jzyfy.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794965606849",
     "name": "@all 💃🏻 *Viatu with full comfort, orthopedic Open shoes!!* 🔥",
     "category": "Shoes",
