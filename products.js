@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794964945152",
+    "name": "🔥Hot deal🔥🔥  Ramtons 20Litres Digital Microwave With Grill",
+    "category": "Electronics",
+    "price": 9999,
+    "stock": "very available",
+    "description": "🔥Hot deal🔥🔥\n\nRamtons 20Litres Digital Microwave With Grill RM 779 (Silver Glass)\nPrice drop⏬😍 @9999🔥\n",
+    "image": "images/1794964941691-alskv.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794964714654",
     "name": "‼️‼️New in🤩🤩 Icona Analogue microwave oven with handle",
     "category": "Electronics",
