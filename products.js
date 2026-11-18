@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794965362117",
+    "name": "handbag",
+    "category": "Female clothes",
+    "price": 1650,
+    "stock": "in stock",
+    "description": "latest classic handbag",
+    "image": "images/1794965358932-e8kzd.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794965251632",
     "name": "classic handbag",
     "category": "Female clothes",
