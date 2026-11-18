@@ -1,6 +1,18 @@
 // Updated by JOJE admin dashboard
 window.JOJE_PRODUCTS = [
   {
+    "id": "p-1794964714654",
+    "name": "‼️‼️New in🤩🤩 Icona Analogue microwave oven with handle",
+    "category": "Electronics",
+    "price": 8100,
+    "stock": "",
+    "description": "‼️‼️New in🤩🤩\nIcona Analogue microwave oven with handle\n\n▪️Capacity:20L\n▪️5 microwave power levels\n▪️Cooking end signal\n▪️With handle open door\n▪️Energy efficient \n\n ",
+    "image": "images/1794964711573-xinkl.jpg",
+    "active": true,
+    "isOffer": false,
+    "isNew": true
+  },
+  {
     "id": "p-1794944152187",
     "name": "boys 3 in 1 set",
     "category": "Boys clothes",
